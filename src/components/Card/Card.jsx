@@ -1,14 +1,18 @@
 import "./Card.scss";
+import Counter from "../Counter/Counter"
 
 const Card = ({ name, role }) => {
     return (
         <section className="card">
-            <h2>{name}</h2>
-            <h3>{role}</h3>
-
+            <div>
+                <h2 className="card_content card_content-name">{name}</h2>
+                <h3 className="card_content">{role}</h3>
+            </div>
+            <div>
+                <Counter />
+            </div>
         </section>
     )
 }
-
 
 export default Card;

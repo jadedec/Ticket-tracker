@@ -1,0 +1,31 @@
+@use "../../assets/sass/_variables.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Edu+QLD+Beginner:wght@600&display=swap');
+
+
+.counterCard{
+color: $color-white;
+margin: 0;
+padding: 0;
+
+    h2{
+        font-size: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    h3{
+        margin: 0;
+        padding: 0;
+        color:$color-black;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Edu QLD Beginner', cursive;
+   
+    }
+
+    .button{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+}
