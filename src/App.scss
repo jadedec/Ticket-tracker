@@ -1,0 +1,12 @@
+@use "./assets/sass/variables" as *;
+
+*{
+    background-color: $color-dark;
+}
+main{
+    grid-template-columns: repeat(5,1fr);
+}
+
+h1{
+    text-align: center;
+}
