@@ -6,7 +6,7 @@ const Card = ({ name, role }) => {
         <section className="card">
             <div>
                 <h2 className="card_content card_content-name">{name}</h2>
-                <h3 className="card_content">{role}</h3>
+                <h3 className="card_content card_content-role">{role}</h3>
             </div>
             <div>
                 <Counter />
