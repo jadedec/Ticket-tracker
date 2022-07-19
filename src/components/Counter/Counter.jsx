@@ -17,7 +17,6 @@ const Counter = () => {
         setTicket(ticket + 1);
     }
 
-
     return(
     <section className="counterCard">
         <h2>TICKET</h2>
