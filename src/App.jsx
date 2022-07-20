@@ -25,7 +25,6 @@ const App = () => {
       const updatedUser = { firstName, lastName };
       setUser(updatedUser);
       event.target.reset();
-      console.log(user);
     }
   };
 

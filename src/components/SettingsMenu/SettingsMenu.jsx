@@ -1,4 +1,3 @@
-import React from "react";
 
 import "./SettingsMenu.scss";
 import close from "../../assets/images/x.svg";
@@ -16,7 +15,7 @@ const SettingsMenu = ({ userName,toggleSettings,handleSubmit }) => {
           <input type="text" name="firstName" className="settings-menu__input" />
           <label htmlFor="lastName">Last name</label>
           <input type="text" name="lastName" className="settings-menu__input" />
-          <button className="settings-menu__button" onClick={toggleSettings}>SAVE</button>
+          <button className="settings-menu__button">SAVE</button>
         </form>
       </div>
     </div>
