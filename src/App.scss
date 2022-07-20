@@ -7,15 +7,17 @@ body{
     background-color: $color-dark;
     font-family: 'Cormorant SC', serif;
 }
+.greeting{
+    margin-top: 0;
+    text-align: center;
+    font-size: 2rem;
+    color: $color-white;
+}
+
+
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2rem;
-}
-
-h1{
-    text-align: center;
-    font-size: 3rem;
-    color: $color-orange;
 }
